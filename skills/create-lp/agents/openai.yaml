@@ -1,0 +1,4 @@
+interface:
+  display_name: "LP作成アシスタント"
+  short_description: "質問で要件を確認し自治体向け静的LPを設計・実装します"
+  default_prompt: "$create-lp を使って自治体向けLPを作成して。"
