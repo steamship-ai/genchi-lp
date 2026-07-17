@@ -30,6 +30,6 @@ lp/
 
 ## 公開
 
-- GitHub Pagesの公開元は `main` ブランチのリポジトリ直下。
-- `lp/sample-city/` の公開URLは `https://steamship-ai.github.io/genchi-lp/lp/sample-city/`。
+- GitHub Pagesには `lp/` ディレクトリだけを公開する。公開はGitHub Actionsで行う。
+- `lp/sample-city/` の公開URLは `https://steamship-ai.github.io/genchi-lp/sample-city/`。
 - GitHub Freeの組織では、Pages公開用リポジトリをPublicにする。

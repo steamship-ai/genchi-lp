@@ -14,8 +14,8 @@ lp/<municipality-slug>/
     └── ...
 ```
 
-たとえば `lp/sample-city/` は `https://steamship-ai.github.io/genchi-lp/lp/sample-city/` で公開されます。全体のトップページは設けません。
+たとえば `lp/sample-city/` は `https://steamship-ai.github.io/genchi-lp/sample-city/` で公開されます。全体のトップページは設けません。
 
 ## 公開
 
-GitHubの `steamship-ai/genchi-lp` で **Settings → Pages** を開き、`main` ブランチの `/(root)` を公開元に設定します。
+`main` ブランチへのpushで、GitHub Actionsが `lp/` だけをGitHub Pagesへ公開します。
