@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="山と川のあるまちのイラスト">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b9d9d6"/><stop offset="1" stop-color="#f4e7c6"/></linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#88c6cb"/><stop offset="1" stop-color="#d9efdf"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1260" cy="185" r="78" fill="#fff3c7" opacity=".85"/>
+  <path d="M0 515 265 250l170 183 215-277 264 356 230-234 276 237v191H0Z" fill="#668b72"/>
+  <path d="M0 605 332 378l193 190 231-180 218 207 204-137 422 182v187H0Z" fill="#3f6b57"/>
+  <path d="M0 650c242-49 374 18 557 51 238 43 435-69 607-9 128 45 242 173 436 137v171H0Z" fill="url(#river)"/>
+  <path d="M0 815c278-89 427 63 678 9 231-49 372-137 922-43v219H0Z" fill="#e7dbb7"/>
+  <g fill="#f8f4e8"><path d="M267 655h91v75h-91z"/><path d="M380 677h112v86H380z"/><path d="M1035 634h98v94h-98z"/><path d="M1155 660h118v88h-118z"/></g>
+  <g fill="#b66f50"><path d="m243 655 69-43 70 43z"/><path d="m351 677 85-49 90 49z"/><path d="m1011 634 73-48 75 48z"/><path d="m1124 660 90-54 92 54z"/></g>
+  <path d="M0 886c250-30 450 4 654 49 324 71 594-62 946-9v74H0Z" fill="#5b8662"/>
+</svg>
