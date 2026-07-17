@@ -7,7 +7,7 @@
 ## 構成
 
 ```text
-lp/
+docs/
 └── <municipality-slug>/
     ├── index.html
     ├── styles.css
@@ -15,7 +15,7 @@ lp/
         └── ...
 ```
 
-- 自治体ページは `lp/<municipality-slug>/` に置く。
+- 自治体ページは `docs/<municipality-slug>/` に置く。
 - 1自治体のHTML・CSS・画像などは、その自治体フォルダ内で完結させる。
 - ページごとにデザインが異なってよい。共通コンポーネントや共通CSSは前提にしない。
 - リポジトリ直下のトップページは作らない。
@@ -30,6 +30,6 @@ lp/
 
 ## 公開
 
-- GitHub Pagesには `lp/` ディレクトリだけを公開する。公開はGitHub Actionsで行う。
-- `lp/sample-city/` の公開URLは `https://steamship-ai.github.io/genchi-lp/sample-city/`。
+- GitHub Pagesには `docs/` ディレクトリだけを公開する。
+- `docs/sample-city/` の公開URLは `https://steamship-ai.github.io/genchi-lp/sample-city/`。
 - GitHub Freeの組織では、Pages公開用リポジトリをPublicにする。
