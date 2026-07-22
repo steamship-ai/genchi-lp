@@ -8,6 +8,5 @@ img { display: block; width: 100%; height: auto; }
 .vendor-copy { padding-top: .75rem; }
 h2, p { margin: 0; }
 h2 { font-size: clamp(.72rem, 1.35vw, 1.125rem); font-weight: 700; line-height: 1.3; }
-.vendor-copy p { margin-top: .5rem; color: #475569; font-size: clamp(.56rem, .9vw, .8rem); line-height: 1.35; }
-.vendor-copy .reward { color: #0f172a; }
+.vendor-copy p { margin-top: .5rem; color: #0f172a; font-size: clamp(.56rem, .9vw, .8rem); line-height: 1.35; }
 @media (max-width: 400px) { .vendors { gap: 1.5rem .75rem; padding: 1.5rem .75rem; } }
